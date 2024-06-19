@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 251, 255);
+    background-image: linear-gradient(rgba(232, 244, 255, 0.7), #cae7ffb3), url(imagenes/Fondito.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size:xx-large;
+    text-align: center;
+    color: black;
+}
+
+h2{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+
+h3{
+    width: 105px;
+    height: 22px;
+    margin: auto;
+    background-image: url(imagenes/titulo.png);
+    background-position: 0px, 0px;
+    animation: animacion 3s infinite;
+    animation-timing-function: steps(2);
+}
+
+@keyframes animacion{
+    0% {background-position: 0px 0px}
+    100% {background-position: 0px 40px;}
+}
+
+ul {
+    margin-left: 3%;
+    list-style-type:circle;
+    font-family: Montserrat;
+    font-size: small;
+    font-weight: 300;
+}
+
+#vinculo{
+    color: black;
+    font-weight:500;
+    font-size:x-small;
+    text-decoration: none;
+}
+
+#vinculo:hover{
+    color: rgb(6, 0, 173);
+}
+
+p{
+    font-family: Montserrat;
+    font-weight:300;
+    font-size:smaller;
+    text-align: center;
+}
+
+.derechos{
+    font-size: xx-small;
+    font-weight: 300;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div {
+    width: 45%;
+    margin-top: 15px;
+}
+
+
+img { 
+    width: 100%;
+
+}
+
+video {
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+}
+
+main {
+    width: 90%;
+    margin:  auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ig {
+    text-decoration: none;
+    color:aliceblue;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20%;
+    width: 100px;
+    height: 30px;
+    display: block;
+    font-family: Montserrat; 
+    font-size: 10px;
+    text-align: center;
+    line-height: 30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    margin: auto; 
+}
+
+.ig:hover {
+    background-color: rgba(2, 0, 55, 0.587);
+    color:aliceblue;
+    border-radius: 10px;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color:rgb(213, 234, 252);
+    background-image: linear-gradient(rgba(213, 234, 252, 0.7), rgba(213, 234, 252, 0.7)), url(imagenes/onditas.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+  
